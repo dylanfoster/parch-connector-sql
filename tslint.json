@@ -1,6 +1,17 @@
 {
   "extends": "tslint-config-airbnb",
   "rules": {
-    "trailing-comma": false
+    "max-line-length": {
+      "severity": "warning",
+      "options": 120
+    },
+    "trailing-comma": false,
+    "variable-name": [true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case",
+      "allow-trailing-underscore"
+    ]
   }
 }
