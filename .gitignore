@@ -1,0 +1,9 @@
+/.tscache
+/node_modules
+.baseDir.ts
+.DS_Store
+dist
+npm-debug.log
+.nyc_output
+coverage
+yarn-error*

@@ -1,0 +1,11 @@
+/node_modules
+/src
+/test
+.travis.yml
+.editorconfig
+tsconfig.json
+tslint.json
+npm-debug.log
+coverage
+.nyc_output
+yarn-error*

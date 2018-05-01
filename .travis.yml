@@ -1,0 +1,13 @@
+sudo: false
+language: node_js
+node_js:
+- '8'
+- node
+os:
+- osx
+- linux
+cache:
+  yarn: true
+before_install:
+- yarn config set spin false
+script: yarn cover
